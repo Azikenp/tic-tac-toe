@@ -1,4 +1,4 @@
-.grid {
+/* .grid {
     display: grid;
     grid-gap: 1px;
     grid-template-columns: repeat(3, 1fr);
@@ -32,4 +32,4 @@
   
   p {
     font-size: 2rem;
-  }
+  } */
