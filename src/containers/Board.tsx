@@ -8,8 +8,9 @@ const Board = () => {
   );
   const [winner, setWinner] = useState(null);
 
-  function reset(){
-    setSqaures(Array(9).fill(null))
+  function reset() {
+    setSqaures(Array(9).fill(null));
+    setWinner(null);
   }
 
   function setSquareValue(index) {
@@ -42,8 +43,10 @@ const Board = () => {
             );
           })}
       </div>
-      
-      <button className="reset" onClick={reset}>RESET</button>
+
+      <button className="reset" onClick={reset}>
+        RESET
+      </button>
     </div>
   );
 };
