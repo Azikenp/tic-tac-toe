@@ -71,8 +71,7 @@ const Board = () => {
       )}
 
       <div className="grid">
-        {Array(9)
-          .fill(null)
+        {squares
           .map((_, i) => {
             return (
               <Square
