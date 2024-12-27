@@ -1,12 +1,15 @@
-import "./App.css";
 import Board from "./containers/Board";
 import './index.css'
+import styles from './styles/Home.module.css'
 
 function App() {
   return (
-    <>
-      <Board />
-    </>
+    <div className={styles.container}>
+
+      <main className={styles.main}>
+        <Board />
+      </main>
+    </div>
   );
 }
 
